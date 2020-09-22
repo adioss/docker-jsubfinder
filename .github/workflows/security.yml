@@ -25,9 +25,9 @@ jobs:
       - name: Detect Secrets
         uses: evanextreme/detect-secrets-action@1.0.0
 
-      - name: Run ApplicationInspector
-        uses: microsoft/ApplicationInspector-Action@v1
-      - uses: actions/upload-artifact@v2
-        with:
-          name: AppInspectorResults
-          path: AppInspectorResults.json
+#      - name: Run ApplicationInspector
+#        uses: microsoft/ApplicationInspector-Action@v1
+#      - uses: actions/upload-artifact@v2
+#        with:
+#          name: AppInspectorResults
+#          path: AppInspectorResults.json
